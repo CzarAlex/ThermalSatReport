@@ -1,7 +1,7 @@
 import json, datetime, time, json, urllib.request
 from escpos.printer import Network
 
-printer_ip = "192.168.0.233" # must be an IP address set as a string if you're using Serial or USB, see https://python-escpos.readthedocs.io/en/latest/
+printer_ip = "192.168.0.233" # must be an IP address set as a string. If you're using Serial or USB, see https://python-escpos.readthedocs.io/en/latest/
 api_key = "API STRING GOES IN HERE" # grab yours over at n2yo.com
 sleep = 1 # Take a break between each JSON pull to give things time to catch up. Adjust as needed
 
